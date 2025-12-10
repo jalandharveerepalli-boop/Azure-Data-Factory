@@ -3,46 +3,13 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"factoryName": {
-			"value": "AksharAdf"
+			"value": "jave-adf-etl"
 		},
-		"ADLSGen2_accountKey": {
+		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
-		"AzureDatabricks_accessToken": {
-			"value": ""
-		},
-		"AzureSqlDatabase1_password": {
-			"value": ""
-		},
-		"AzureSqldb_password": {
-			"value": ""
-		},
-		"ADLSGen2_properties_typeProperties_url": {
-			"value": "https://datalakete.dfs.core.windows.net/"
-		},
-		"AzureDatabricks_properties_typeProperties_existingClusterId": {
-			"value": "1111-194728-t3u3zmoz"
-		},
-		"AzureSqlDatabase1_properties_typeProperties_server": {
-			"value": "avsqlserver.database.windows.net"
-		},
-		"AzureSqlDatabase1_properties_typeProperties_database": {
-			"value": "pocdatabase"
-		},
-		"AzureSqlDatabase1_properties_typeProperties_userName": {
-			"value": "sqladmin"
-		},
-		"AzureSqldb_properties_typeProperties_server": {
-			"value": "avsqlserver.database.windows.net"
-		},
-		"AzureSqldb_properties_typeProperties_database": {
-			"value": "pocdatabase"
-		},
-		"AzureSqldb_properties_typeProperties_userName": {
-			"value": "sqladmin"
-		},
-		"KeyVaults_properties_typeProperties_baseUrl": {
-			"value": "https://jv-keyvaults.vault.azure.net/"
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakejave.dfs.core.windows.net/"
 		}
 	}
 }
